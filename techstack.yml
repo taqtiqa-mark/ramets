@@ -1,7 +1,8 @@
 repo_name: taqtiqa-mark/ramets
 report_id: 5ab8e4c455f77bbaad1282449fdcb5f3
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T21:22:15+00:00'
+timestamp: '2024-01-04T15:15:11+00:00'
 requested_by: rom-bot
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets
   detection_source: Repo Metadata
 - name: PostgreSQL
   description: A powerful, open source object-relational database system
@@ -25,6 +27,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2020-06-23 06:41:47.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2017-06-28 16:54:25.000000000 Z
@@ -49,6 +53,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -58,6 +63,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -67,7 +73,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/sync_configs.yml"
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
   last_updated_by: Piotr Solnica
   last_updated_on: 2021-06-05 11:45:09.000000000 Z
 - name: RSpec
@@ -80,7 +87,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2539/logo.png
-  detection_source_url: Gemfile
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2017-06-28 16:54:25.000000000 Z
@@ -93,6 +100,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/.github/workflows/rubocop.yml
   detection_source: ".github/workflows/rubocop.yml"
   last_updated_by: File Sync
   last_updated_on: 2021-06-03 13:35:14.000000000 Z
@@ -104,6 +112,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
   detection_source: rom.gemspec
   last_updated_by: Peter Solnica
   last_updated_on: 2021-12-27 11:58:03.000000000 Z
@@ -116,6 +125,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets
   detection_source: Repo Metadata
 - name: activerecord
   description: Databases on Rails
@@ -127,7 +137,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18828/default_07d724f95ff4caf087b38d9eb083e0406bcfdadf.png
-  detection_source_url: Gemfile
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2020-06-23 06:41:47.000000000 Z
@@ -165,6 +175,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19069/default_5f9f148b380c6e53dd11ecf4121a9aa0355b667e.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2020-06-23 06:41:47.000000000 Z
@@ -179,7 +190,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18968/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
-  detection_source_url: rom.gemspec
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
   detection_source: rom.gemspec
   last_updated_by: Peter Solnica
   last_updated_on: 2022-04-15 06:48:27.000000000 Z
@@ -193,8 +204,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19493/default_f7d5a2c0f9e259123654237bc81ab104d4c35b63.png
-  detection_source_url: rom.gemspec
-  detection_source: rom.gemspec
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
+  detection_source: Gemfile
   last_updated_by: Peter Solnica
   last_updated_on: 2022-04-02 13:34:20.000000000 Z
 - name: dry-struct
@@ -207,7 +218,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19279/default_8afcc79bff7199de595503748306418047eb91e7.png
-  detection_source_url: rom.gemspec
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
   detection_source: rom.gemspec
   last_updated_by: Peter Solnica
   last_updated_on: 2022-04-15 06:46:08.000000000 Z
@@ -221,6 +232,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19567/image.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Peter Solnica
   last_updated_on: 2022-03-29 07:20:12.000000000 Z
@@ -233,6 +245,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2017-06-28 16:54:25.000000000 Z
@@ -245,6 +258,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2017-06-28 16:54:25.000000000 Z
@@ -257,6 +271,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18848/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2020-06-23 06:41:47.000000000 Z
@@ -269,6 +284,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2020-06-23 06:41:47.000000000 Z
@@ -282,6 +298,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2021-06-06 11:18:09.000000000 Z
@@ -294,6 +311,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
   detection_source: Gemfile
   last_updated_by: Piotr Solnica
   last_updated_on: 2020-06-23 06:41:47.000000000 Z
@@ -306,6 +324,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19560/default_cc29e04812dfddf37ca12aa58ac16035678d77ea.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
   detection_source: rom.gemspec
   last_updated_by: Peter Solnica
   last_updated_on: 2021-12-27 11:58:03.000000000 Z
