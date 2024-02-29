@@ -1,0 +1,330 @@
+repo_name: taqtiqa-mark/ramets
+report_id: 5ab8e4c455f77bbaad1282449fdcb5f3
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:22:50+00:00'
+requested_by: rom-bot
+provider: github
+branch: main
+detected_tools_count: 23
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets
+  detection_source: Repo Metadata
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2020-06-23 06:41:47.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2017-06-28 16:54:25.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2021-06-05 11:45:09.000000000 Z
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: '3.6'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2017-06-28 16:54:25.000000000 Z
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/.github/workflows/rubocop.yml
+  detection_source: ".github/workflows/rubocop.yml"
+  last_updated_by: File Sync
+  last_updated_on: 2021-06-03 13:35:14.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
+  detection_source: rom.gemspec
+  last_updated_by: Peter Solnica
+  last_updated_on: 2021-12-27 11:58:03.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets
+  detection_source: Repo Metadata
+- name: activerecord
+  description: Databases on Rails
+  package_url: https://rubygems.org/activerecord
+  version: '5.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18828/default_07d724f95ff4caf087b38d9eb083e0406bcfdadf.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2020-06-23 06:41:47.000000000 Z
+  vulnerabilities:
+  - name: Active Record RCE bug with Serialized Columns
+    cve_id: CVE-2022-32224
+    cve_url: https://github.com/advisories/GHSA-3hhc-qp5v-9p2j
+    detected_date: Jul 13
+    severity: critical
+    first_patched: 5.2.8.1
+  - name: Denial of Service Vulnerability in ActiveRecord's PostgreSQL adapter
+    cve_id: CVE-2022-44566
+    cve_url: https://github.com/advisories/GHSA-579w-22j4-4749
+    detected_date: Jan 19
+    severity: high
+    first_patched: 6.1.7.1
+  - name: Active Record subject to Regular Expression Denial-of-Service (ReDoS)
+    cve_id: CVE-2021-22880
+    cve_url: https://github.com/advisories/GHSA-8hc4-xxm3-5ppp
+    detected_date: Aug 22
+    severity: high
+    first_patched: 5.2.4.5
+  - name: Active Record Improper Access Control
+    cve_id: CVE-2015-7577
+    cve_url: https://github.com/advisories/GHSA-xrr6-3pc4-m447
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 5.0.0.beta1.1
+- name: benchmark-ips
+  description: An iterations per second enhancement to Benchmark
+  package_url: https://rubygems.org/benchmark-ips
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19069/default_5f9f148b380c6e53dd11ecf4121a9aa0355b667e.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2020-06-23 06:41:47.000000000 Z
+- name: concurrent-ruby
+  description: Modern concurrency tools including agents, futures, promises, thread
+    pools, actors, supervisors, and more
+  package_url: https://rubygems.org/concurrent-ruby
+  version: '1.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18968/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
+  detection_source: rom.gemspec
+  last_updated_by: Peter Solnica
+  last_updated_on: 2022-04-15 06:48:27.000000000 Z
+- name: dry-initializer
+  description: DSL for declaring params and options of the initializer
+  package_url: https://rubygems.org/dry-initializer
+  version: '3.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19493/default_f7d5a2c0f9e259123654237bc81ab104d4c35b63.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
+  detection_source: Gemfile
+  last_updated_by: Peter Solnica
+  last_updated_on: 2022-04-02 13:34:20.000000000 Z
+- name: dry-struct
+  description: Typed structs and value objects
+  package_url: https://rubygems.org/dry-struct
+  version: '1.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19279/default_8afcc79bff7199de595503748306418047eb91e7.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
+  detection_source: rom.gemspec
+  last_updated_by: Peter Solnica
+  last_updated_on: 2022-04-15 06:46:08.000000000 Z
+- name: jdbc-sqlite3
+  description: Install this gem `require 'jdbc/sqlite3'` and invoke `Jdbc::SQLite3.load_driver`
+    within JRuby to load the driver
+  package_url: https://rubygems.org/jdbc-sqlite3
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19567/image.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Peter Solnica
+  last_updated_on: 2022-03-29 07:20:12.000000000 Z
+- name: pg
+  description: Pg is the Ruby interface to the {PostgreSQL RDBMS}[http://www.postgresql.org/]
+  package_url: https://rubygems.org/pg
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18855/default_d343d9a7c573fa5dcbeb4d3c43d2ffe4afa82cc1.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2017-06-28 16:54:25.000000000 Z
+- name: pry
+  description: An IRB alternative and runtime developer console
+  package_url: https://rubygems.org/pry
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2017-06-28 16:54:25.000000000 Z
+- name: pry-byebug
+  description: Combine 'pry' with 'byebug'
+  package_url: https://rubygems.org/pry-byebug
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18848/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2020-06-23 06:41:47.000000000 Z
+- name: redcarpet
+  description: A fast, safe and extensible Markdown to
+  package_url: https://rubygems.org/redcarpet
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2020-06-23 06:41:47.000000000 Z
+- name: sqlite3
+  description: This module allows Ruby programs to interface with the SQLite3 database
+    engine
+  package_url: https://rubygems.org/sqlite3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2021-06-06 11:18:09.000000000 Z
+- name: yard
+  description: YARD is a documentation generation tool for the Ruby programming language
+  package_url: https://rubygems.org/yard
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Piotr Solnica
+  last_updated_on: 2020-06-23 06:41:47.000000000 Z
+- name: zeitwerk
+  description: Zeitwerk implements constant autoloading with Ruby semantics
+  package_url: https://rubygems.org/zeitwerk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19560/default_cc29e04812dfddf37ca12aa58ac16035678d77ea.png
+  detection_source_url: https://github.com/taqtiqa-mark/ramets/blob/main/rom.gemspec
+  detection_source: rom.gemspec
+  last_updated_by: Peter Solnica
+  last_updated_on: 2021-12-27 11:58:03.000000000 Z
